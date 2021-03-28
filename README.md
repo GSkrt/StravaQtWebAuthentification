@@ -24,7 +24,7 @@ client_secret = 'asdfasgsdfhgpo345928345asdfv234dfsay'
 client = sa.refresh_access_token(client_strava_id, client_secret)
 </code> </pre>
 
-Strava API limits 30000 daily requests, so it's practically useless for some  development apart from personal activity analysis.
+Strava API limits 30000 daily requests, so it's practically useless for some major APP development apart from personal activity analysis.
 If you are like me, and you like to analyse time series this will help you get going without reinventing the wheel. 
 
 
