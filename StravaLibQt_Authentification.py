@@ -86,7 +86,7 @@ def refresh_access_token(client_id, client_sec):
 
     # start main app loop for activity monitoring ...
     my_access_token = pickle.load(open("access_token.acs", "rb"))
-    print(my_access_token)
+    #print(my_access_token)
     client = Client(access_token=my_access_token['access_token'])
     client.access_token = my_access_token['access_token']
     client.refresh_token = my_access_token['refresh_token']
