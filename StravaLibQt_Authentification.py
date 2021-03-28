@@ -93,7 +93,7 @@ def refresh_access_token(client_id, client_sec):
     client.token_expires_at = my_access_token['expires_at']
     # refresh access token from strava ...
     if time.time() > client.token_expires_at:
-        my_access_token = client.refresh_access_token(client_id=client_strava_id, client_secret=client_secrett,
+        my_access_token = client.refresh_access_token(client_id=client_id, client_secret=client_sec,
                                                       refresh_token=my_access_token['refresh_token'])
         pickle.dump(my_access_token, open("access_token.acs", "wb"))
     return client
