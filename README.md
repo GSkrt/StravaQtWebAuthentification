@@ -1,11 +1,13 @@
 # Strava Qt Web Authentification
 
-This is a simple script for authentification with stravalib library. 
-Check https://github.com/hozn/stravalib for further information how to 
-get data to python from Strava servers.
+This is a simple script that will help you simplyfy authentification with Strava API using stravalib library. 
+Check https://github.com/hozn/stravalib for further information how to get data to python from Strava servers.
+
+This script helps you manage your access token and refresh of access token. It stores information in a access_token.acs 
+file using pickle. 
 
 
-###Basic example: 
+Basic example: 
 
 <pre><code>
 import StravaLibQt_Authentification as sa
