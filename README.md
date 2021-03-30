@@ -28,4 +28,4 @@ Strava API limits 30000 daily requests, so it's practically useless for some maj
 If you are like me, and you like to analyse time series this will help you get going without reinventing the wheel. 
 
 
-Happy data analysis and find me on Strava :D   
+Happy data analysis and add me on Strava :D   
