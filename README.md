@@ -17,8 +17,8 @@ import StravaLibQt_Authentification as sa
 
 # go to https://www.strava.com/settings/api and generate new Application  to get strava client id and secret
 
-client_strava_id = 12343425234 <- put your own key
-client_secret = 'asdfasgsdfhgpo345928345asdfv234dfsay'
+client_strava_id = 12343425234 <- put your own API id here
+client_secret = 'asdfasgsdfhgpo345928345asdfv234dfsay' <-add your own secret here 
 
 #use client as stravalib client...
 client = sa.refresh_access_token(client_strava_id, client_secret)
